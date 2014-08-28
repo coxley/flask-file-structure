@@ -9,7 +9,15 @@ I'm providing this here to hopefully speed up and lessen frustration of people n
 
 I haven't reinvented the wheel or anything like that. This is just the template structure I've ended up with after reading several best practices and trying to get Flask to work with mod_wsgi (Which would have went smoother had I checked what python binary my mod_wsgi was compiled against first). 
 
-Feel free to use this however you prefer. The virtualenv('project/env') already contains a few python modules already such as Flask-WTF, Flask-SQLAlchemy, Flask-Login, and MySQL-Python. These are modules I tend to use a lot so to make it easier I've left them in. Feel free to recreate the virtual env with `virtualenv env` within the project root.
+
+### Included
+
+I've left some python modules I use in almost every project(and forsee myself using) such as the following: Flask-WTF, Flask-Login, Flask-SQLAlchemy, and MySQL-Python.
+
+If you have no use for these and would rather remove them, feel free to remove the env directory and recreate the virtualenv with `virtualenv env` inside the project root.
+
+I've also included the Bootstrap frontend framework with some basic templates. You can use as much or as little as you want from this package.
+
 
 ### File Tree
 
